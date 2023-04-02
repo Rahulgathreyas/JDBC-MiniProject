@@ -10,7 +10,7 @@ public class UserDBConnection {
 			//load driver
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			//get connection 
-			usercon=DriverManager.getConnection("jdbc:mysql://localhost:3306/user_details","root","*****");
+			usercon=DriverManager.getConnection("jdbc:mysql://localhost:3306/user_details","root","Enter your MySQL password");
 		}
 		catch(Exception e) {
 			e.printStackTrace();
